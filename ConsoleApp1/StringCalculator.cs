@@ -27,7 +27,7 @@ namespace Lab1
             if (numbers.Any(number => number < 0))
                 throw new ArgumentException("Negative number");
 
-            return numbers.Sum();
+            return 0;
         }
     }
 }
